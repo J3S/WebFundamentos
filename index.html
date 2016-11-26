@@ -31,57 +31,56 @@
 </head>
 
 <body>
-    <div class="container container-centered">
-            <header>
-               <nav class="navbar navbar-default">
-                  <div class="container-fluid">
-                    <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                         <span class="sr-only">Toggle navigation</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                      </button>
-                      <a class="navbar-brand hidden-xs" href="#"><span><img src="img/ESPOL-logo.svg" class="navbar-brand-image"></span> Fundamentos de programaci&oacuten</a>
-                      <a class="navbar-brand visible-xs" href="#"><span><img src="img/ESPOL-logo.svg" class="navbar-brand-image"></span></a>
-                    </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                      <ul class="nav navbar-nav navbar-right">
+                    </button>
+                    <a class="navbar-brand hidden-xs remove-padding-tb" href="#"><span><img src="img/logo-espol-white.png" class="navbar-brand-image"></span> Fundamentos de programaci&oacuten</a>
+                    <a class="navbar-brand visible-xs" href="#"><span><img src="img/logo-espol-white.png" class="navbar-brand-image"></span></a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
                         <li><a href="#">About</a></li>
                         <li><a href="#">Log in</a></li>
                         <li><a href="#">Sign up</a></li>
-                      </ul>
-                    </div><!-- /.navbar-collapse -->
-                  </div><!-- /.container-fluid -->
-                </nav>
-            </header>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
 
+    <div class="container container-centered">
             <section>
                 <!-- For desktop -->
-                <div id="carousel-example-generic" class="carousel slide hidden-xs" data-ride="carousel">
+                <div id="carousel-example-generic" class="carousel slide hidden-xs carousel-fixed" data-ride="carousel">
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner" role="listbox">
                         <div class="item active">
                             <img src="./img/woman-typing-writing-windows.jpg" alt="...">
                             <div class="carousel-caption">
-                                ...
+                                <h1>Mensaje 1</h1>
                             </div>
                         </div>
                         <div class="item">
                             <img src="./img/pexels-photo-90807-1.jpg" alt="...">
                             <div class="carousel-caption">
-                                ...
+                                <h1>Mensaje 2</h1>
                             </div>
                         </div>
                         <div class="item">
                             <img src="./img/startup-photos-1.jpg" alt="...">
                             <div class="carousel-caption">
-                                ...
+                                <h1>Mensaje 3</h1>
                             </div>
                         </div>
-                        ...
                     </div>
                     <!-- Controls -->
                     <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
@@ -94,7 +93,6 @@
                     </a>
                 </div>
                 <!-- /For desktop -->
-
                 <!-- For mobile -->
                 <div class="intro-header visible-xs">
                     <div class="container">
@@ -109,7 +107,75 @@
                     <!-- /.container -->
                 </div>
                 <!-- /For mobile -->
+            </section>
 
+            <section>
+                <!-- Page Content -->
+                <a  name="services"></a>
+                <div class="content-section-a">
+                    <div class="container-fluid">
+                        <div class="row image-row">
+                            <div class="col-md-6 col-xs-12">
+                                <hr class="section-heading-spacer">
+                                <div class="clearfix"></div>
+                                <h2 class="section-heading">¿Porqu&eacute hay que aprender a programar?</h2>
+                                <p class="lead">Programar es hoy lo que ha sido aprender a leer y escribir en su d&iacutea, es esencial, transforma tu movil en una herramienta poderosa, se aprende on line, te ayuda a conseguir m&aacutes con menos esfuerzo, te hace m&aacutes inteligente y es muy divertido.</p>
+                            </div>
+                            <div class="col-md-6 col-xs-12 container-img-content"">
+                                <div class="embed-responsive embed-responsive-4by3">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/X5Wkp1gsNik"></iframe>
+                                </div>
+                                <!-- <iframe class="iframe-size-screen" src="https://www.youtube.com/embed/X5Wkp1gsNik" frameborder="0" allowfullscreen></iframe> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.content-section-a -->
+                <div class="content-section-b">
+                    <div class="container-fluid">
+                        <div class="row row-image">
+                            <div class="col-md-6 col-lg-push-6 col-sm-12">
+                                <hr class="section-heading-spacer">
+                                <div class="clearfix"></div>
+                                <h2 class="section-heading">Descripci&oacuten del curso</h2>
+                                <p class="lead">Este curso presenta estrategias para resolver problemas básicos de ingeniería mediante la aplicación de un lenguaje de programación estructurado, a través de la aplicación de buenas prácticas de programación con ejercicios que ayudan a desarrollar el pensamiento lógico.</p>
+                            </div>
+                            <div class="col-md-6 col-lg-pull-6  col-xs-12 container-img-content">
+                                <img class="img-responsive center-block img-rounded" src="img/descripcion-curso.jpg" alt="" >
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.content-section-b -->
+                <div class="content-section-a">
+                    <div class="container-fluid">
+                        <div class="row image-row">
+                            <div class="col-xs-12">
+                                <hr class="section-heading-spacer">
+                                <div class="clearfix"></div>
+                                <h2 class="section-heading">Lo que aprender&aacutes en este curso</h2>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <ul class="lead">
+                                    <li>Resolver problemas básicos de ingeniería aplicando el conocimiento y correcta utilización de estructuras de control.</li>
+                                    <li>Reconocer la importancia de las funciones como herramienta para simplificar la estructura de un programa.</li>
+                                    <li>Implementar funciones que contengan estructuras de control aprendidas en este curso.</li>
+                                </ul>
+                            </div>
+                            <div class="col-xs-12 col-md-6">
+                                <ul class="lead">
+                                    <li>Utilizar archivos de texto para el almacenamiento de información.</li>
+                                    <li>Implementar proyectos que integren los conceptos aprendidos, expresados en un lenguaje de alto nivel con la ayuda de una herramienta de programación.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.content-section-a -->
+                <!-- /Page Content -->
             </section>
     </div>
 
