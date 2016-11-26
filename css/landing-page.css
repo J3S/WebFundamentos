@@ -1,0 +1,48 @@
+/*
+ * Start Bootstrap - Landing Page (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    background: #ffffff url("../img/background-page.jpg") no-repeat right top;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    margin: 0;
+}
+
+.navbar-brand-image {
+    width: 40px;
+    height: 40px;
+}
+
+.navbar-brand {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 767px) {
+    body {
+        margin-top: 20px;
+    }
+    .container-centered {
+        max-width: 80%;
+    }
+}
+
+.intro-message {
+    color: #f8f8f8;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/code.jpg) no-repeat center center;
+    background-size: cover;
+}
