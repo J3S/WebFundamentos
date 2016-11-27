@@ -65,5 +65,12 @@ header .header-mobile {
 }
 
 .row .text-center .service-box {
-    margin-bottom: 50px;  
+    margin-bottom: 50px; 
+}
+
+@media all and (max-width: 1200px) {
+    .row .text-center .service-box {
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
 }
