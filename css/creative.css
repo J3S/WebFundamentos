@@ -104,7 +104,7 @@ aside {
 }
 @media (min-width: 768px) {
   .navbar-default {
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(28,31,38, 0);
     border-color: rgba(255, 255, 255, 0.3);
   }
   .navbar-default .navbar-header .navbar-brand {
@@ -152,7 +152,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/background-page.jpg');
+  background-image: url('../img/carousel-1.jpg');
   text-align: center;
   color: white;
 }
