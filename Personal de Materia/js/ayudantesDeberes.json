@@ -1,0 +1,23 @@
+{
+  "ayudantesDeberes":[{
+	"imagen": "JoseCedeno.jpg",
+	"nombre": "Carlos Cedeño",
+	"correo": "jgcedeno@espol.edu.ec" 
+  },
+  {
+	"imagen": "Ejemplo.jpg",
+	"nombre": "Nombre Apellido",
+	"correo": "ejemplo@espol.edu.ec"
+  },
+  {
+	"imagen": "Ejemplo.jpg",
+	"nombre": "Nombre Apellido",
+	"correo": "ejemplo@espol.edu.ec"
+  },
+  {
+	"imagen": "Ejemplo.jpg",
+	"nombre": "Nombre Apellido",
+	"correo": "ejemplo@espol.edu.ec"
+  }
+ ]
+}

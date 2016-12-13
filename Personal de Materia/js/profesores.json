@@ -1,0 +1,27 @@
+{
+  "profesores":[{
+	"imagen": "JoseCedeno.jpg",
+	"nombre": "Jose Cedeño",
+	"correo": "jose.gabriel@gmail.com",
+	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
+  },
+  {
+	"imagen": "Ejemplo.jpg",
+	"nombre": "Nombre Apellido",
+	"correo": "ejemplo@espol.edu.ec",
+	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
+  },
+  {
+	"imagen": "Ejemplo.jpg",
+	"nombre": "Nombre Apellido",
+	"correo": "ejemplo@espol.edu.ec",
+	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
+  },
+  {
+	"imagen": "Ejemplo.jpg",
+	"nombre": "Nombre Apellido",
+	"correo": "ejemplo@espol.edu.ec",
+	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
+  }
+ ]
+}

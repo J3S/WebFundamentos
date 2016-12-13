@@ -1,0 +1,25 @@
+main {
+	max-width: 80%;
+	padding-top: 20px;
+}
+
+
+
+div[class="col-md-6"]{
+	padding-top: 45px;
+}
+
+#ayudante{
+	padding-top: 20px;
+}
+
+.thumbnail{
+	height: 160px;
+	margin: 20px;
+	text-align: center;
+}
+
+.img-responsive{
+	padding: 10px;
+}
+
