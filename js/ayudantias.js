@@ -65,7 +65,6 @@ $("#ayudante").change(function() {
         divInfoAyudantias.append(aulaAyudantes[index]);
         var posLat = obj.posiciones[index].lat;
         var posLng = obj.posiciones[index].lng;
-        console.log(posLat + " " + posLng);
         marker = new google.maps.Marker({
             position: {lat: Number(posLat), lng: Number(posLng)},
             map: map,
