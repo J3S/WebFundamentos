@@ -28,7 +28,7 @@ function crearCollapse() {
                     label = $('<label>Recursos</label><br>');
                     panelFooter.append(label);
                     $.each(valueClase.recursos, function(key, valueRecursos) {
-                        var a = $('<a href="' + valueRecursos.ruta + '">' + valueRecursos.tipo + ' - ' + valueRecursos.titulo + '</a><br>');
+                        var a = $('<a href="' + valueRecursos.ruta + '" target="blank">' + valueRecursos.tipo + ' - ' + valueRecursos.titulo + '</a><br>');
                         panelFooter.append(a);
                     });
                     panelCollapse.append(panelFooter);
