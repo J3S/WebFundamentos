@@ -1,67 +1,163 @@
 {
     "semanas": [
         {"numero": 1, "capitulo": "1-2", "clases": [
-            {"numero": 1, "tema": "Introducción a la Programación.", "descripcion": "Descripcion clase 1", "recursos": []},
-            {"numero": 2, "tema": "Tipos de datos. Variables y Asignacion.", "descripcion": "Descripcion clase 2", "recursos": []}
+            {"numero": 1, "tema": "Introducción a la Programación.", "descripcion": "Descripcion clase 1", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 2, "tema": "Tipos de datos. Variables y Asignacion.", "descripcion": "Descripcion clase 2",  
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 2, "capitulo": "2-3", "clases": [
-            {"numero": 3, "tema": "Tipos de datos. Cadena de caracteres.", "descripcion": "Descripcion clase 3", "recursos": []},
-            {"numero": 4, "tema": "Estructuras de control. Condicionales.", "descripcion": "Descripcion clase 4", "recursos": []}
+            {"numero": 3, "tema": "Tipos de datos. Cadena de caracteres.", "descripcion": "Descripcion clase 3", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 4, "tema": "Estructuras de control. Condicionales.", "descripcion": "Descripcion clase 4",  
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 3, "capitulo": "3", "clases": [
-            {"numero": 5, "tema": "Estructuras de control. Lazos de repeticion fija.", "descripcion": "Descripcion clase 5", "recursos": []},
-            {"numero": 6, "tema": "Estructuras de control. Lazos con condicion.", "descripcion": "Descripcion clase 6", "recursos": []}
+            {"numero": 5, "tema": "Estructuras de control. Lazos de repeticion fija.", "descripcion": "Descripcion clase 5", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 6, "tema": "Estructuras de control. Lazos con condicion.", "descripcion": "Descripcion clase 6", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 4, "capitulo": "4", "clases": [
-            {"numero": 7, "tema": "Propiedades de las listas. Indexacion de las listas.", "descripcion": "Descripcion clase 7", "recursos": []},
-            {"numero": 8, "tema": "Slicing con listas.", "descripcion": "Descripcion clase 8", "recursos": []}
+            {"numero": 7, "tema": "Propiedades de las listas. Indexacion de las listas.", "descripcion": "Descripcion clase 7", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 8, "tema": "Slicing con listas.", "descripcion": "Descripcion clase 8", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 5, "capitulo": "4", "clases": [
-            {"numero": 9, "tema": "Funciones Bsicas de la lista.", "descripcion": "Descripcion clase 9", "recursos": []},
-            {"numero": 10, "tema": "Desarrollo de ejercicios. Taller con listas.", "descripcion": "Descripcion clase 10", "recursos": []}
+            {"numero": 9, "tema": "Funciones Bsicas de la lista.", "descripcion": "Descripcion clase 9", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 10, "tema": "Desarrollo de ejercicios. Taller con listas.", "descripcion": "Descripcion clase 10", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 6, "capitulo": "5", "clases": [
-            {"numero": 11, "tema": "Introduccion a Arreglos n-dimensionales. Propiedades.", "descripcion": "Descripcion clase 11", "recursos": []},
-            {"numero": 12, "tema": "Arreglos n-dimensionales. Indexacion Bsica.", "descripcion": "Descripcion clase 12", "recursos": []}
+            {"numero": 11, "tema": "Introduccion a Arreglos n-dimensionales. Propiedades.", "descripcion": "Descripcion clase 11", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 12, "tema": "Arreglos n-dimensionales. Indexacion Bsica.", "descripcion": "Descripcion clase 12", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 7, "capitulo": "5", "clases": [
-            {"numero": 13, "tema": "Arreglos n-dimensionales. Indexacion Booleana.", "descripcion": "Descripcion clase 13", "recursos": []},
-        {"numero": 14, "tema": "Arreglos n-dimensionales. Indexacion con Arreglos.", "descripcion": "Descripcion clase 14", "recursos": []}
+            {"numero": 13, "tema": "Arreglos n-dimensionales. Indexacion Booleana.", "descripcion": "Descripcion clase 13", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+        {"numero": 14, "tema": "Arreglos n-dimensionales. Indexacion con Arreglos.", "descripcion": "Descripcion clase 14", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 8, "capitulo": "5", "clases": [
-            {"numero": 15, "tema": "Arreglos n-dimensionales.  Slicing.", "descripcion": "Descripcion clase 15", "recursos": []},
-            {"numero": 16, "tema": "Arreglos n-dimensionales. Operaciones aritmeticas y entre matrices.", "descripcion": "Descripcion clase 16", "recursos": []}
+            {"numero": 15, "tema": "Arreglos n-dimensionales.  Slicing.", "descripcion": "Descripcion clase 15", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 16, "tema": "Arreglos n-dimensionales. Operaciones aritmeticas y entre matrices.", "descripcion": "Descripcion clase 16", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 9, "capitulo": "6", "clases": [
-            {"numero": 17, "tema": "Funciones. Introduccion, conceptos y principios.", "descripcion": "Descripcion clase 17", "recursos": []},
-            {"numero": 18, "tema": "Funciones. Implementacion de funciones (con parametros y retornando un solo valor).", "descripcion": "Descripcion clase 18", "recursos": []}
+            {"numero": 17, "tema": "Funciones. Introduccion, conceptos y principios.", "descripcion": "Descripcion clase 17", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 18, "tema": "Funciones. Implementacion de funciones (con parametros y retornando un solo valor).", "descripcion": "Descripcion clase 18", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 10, "capitulo": "6", "clases": [
-            {"numero": 19, "tema": "Funciones. Implementacion de funciones (con parametros por defecto y retorno de tupla de valores).", "descripcion": "Descripcion clase 19", "recursos": []},
-            {"numero": 20, "tema": "Funciones. Paso de parametros por valor y referencia. Alcance de variables.", "descripcion": "Descripcion clase 20", "recursos": []}
+            {"numero": 19, "tema": "Funciones. Implementacion de funciones (con parametros por defecto y retorno de tupla de valores).", "descripcion": "Descripcion clase 19", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 20, "tema": "Funciones. Paso de parametros por valor y referencia. Alcance de variables.", "descripcion": "Descripcion clase 20", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 11, "capitulo": "6-7", "clases": [
-            {"numero": 21, "tema": "Modularizacion.", "descripcion": "Descripcion clase 21", "recursos": []},
-            {"numero": 22, "tema": "Funciones con matrices. Taller de Funciones.", "descripcion": "Descripcion clase 22", "recursos": []}
+            {"numero": 21, "tema": "Modularizacion.", "descripcion": "Descripcion clase 21", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 22, "tema": "Funciones con matrices. Taller de Funciones.", "descripcion": "Descripcion clase 22", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 12, "capitulo": "7", "clases": [
-            {"numero": 23, "tema": "Colecciones. Tuplas.", "descripcion": "Descripcion clase 23", "recursos": []},
-            {"numero": 24, "tema": "Colecciones. Conjuntos.", "descripcion": "Descripcion clase 24", "recursos": []}
+            {"numero": 23, "tema": "Colecciones. Tuplas.", "descripcion": "Descripcion clase 23", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 24, "tema": "Colecciones. Conjuntos.", "descripcion": "Descripcion clase 24", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 13, "capitulo": "8", "clases": [
-            {"numero": 25, "tema": "Colecciones. Diccionarios.", "descripcion": "Descripcion clase 25", "recursos": []},
-            {"numero": 26, "tema": "Colecciones anidadas. Taller de colecciones.", "descripcion": "Descripcion clase 26", "recursos": []}
+            {"numero": 25, "tema": "Colecciones. Diccionarios.", "descripcion": "Descripcion clase 25", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 26, "tema": "Colecciones anidadas. Taller de colecciones.", "descripcion": "Descripcion clase 26", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 14, "capitulo": "8-9", "clases": [
-            {"numero": 27, "tema": "Archivos. Introduccion a archivos. Funciones basicas.", "descripcion": "Descripcion clase 27", "recursos": []},
-            {"numero": 28, "tema": "Archivos. Operaciones de entrada de datos.", "descripcion": "Descripcion clase 28", "recursos": []}
+            {"numero": 27, "tema": "Archivos. Introduccion a archivos. Funciones basicas.", "descripcion": "Descripcion clase 27", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 28, "tema": "Archivos. Operaciones de entrada de datos.", "descripcion": "Descripcion clase 28", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 15, "capitulo": "9", "clases": [
-            {"numero": 29, "tema": "Archivos. Operaciones de salida de datos.", "descripcion": "Descripcion clase 29", "recursos": []},
-            {"numero": 30, "tema": "Archivos. Cargando colecciones anidadas desde un archivo.", "descripcion": "Descripcion clase 30", "recursos": []}
+            {"numero": 29, "tema": "Archivos. Operaciones de salida de datos.", "descripcion": "Descripcion clase 29", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 30, "tema": "Archivos. Cargando colecciones anidadas desde un archivo.", "descripcion": "Descripcion clase 30", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]},
         {"numero": 16, "capitulo": "9", "clases": [
-            {"numero": 31, "tema": "Procesamiento de Datos. Introduccion a la libreria Pandas.", "descripcion": "Descripcion clase 31", "recursos": []},
-            {"numero": 32, "tema": "Procesamiento de Datos. Graficacion de datos utilizando matplotlib. Sustentacion.", "descripcion": "Descripcion clase 32", "recursos": []}
+            {"numero": 31, "tema": "Procesamiento de Datos. Introduccion a la libreria Pandas.", "descripcion": "Descripcion clase 31", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []},
+            {"numero": 32, "tema": "Procesamiento de Datos. Graficacion de datos utilizando matplotlib. Sustentacion.", "descripcion": "Descripcion clase 32", 
+            "diapositivas": [{"ruta": "../../recursos/diapositivas/1_Introduccion.pptx"}],
+            "talleres": [],
+            "ejercicios": []}
         ]}
 ]}
