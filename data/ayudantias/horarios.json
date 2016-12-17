@@ -1,0 +1,13 @@
+{
+    "ayudantes": [
+        {"nombre": "Nombre Apellido 1", "horario": "11:30 - 13:30", "edificio": "Bloque 15A", "aula": "15A-03", "lat": "-2.14455819", "lng": "-79.9676156"},
+        {"nombre": "Nombre Apellido 2", "horario": "09:30 - 11:30", "edificio": "Bloque 15A", "aula": "15A-01", "lat": "-2.14455819", "lng": "-79.9676156"},
+        {"nombre": "Nombre Apellido 3", "horario": "13:30 - 15:30", "edificio": "Bloque 24A", "aula": "A-105", "lat": "-2.14543734", "lng": "-79.96592045"},
+        {"nombre": "Nombre Apellido 4", "horario": "09:30 - 11:30", "edificio": "Bloque 24A", "aula": "A-103", "lat": "-2.14543734", "lng": "-79.96592045"},
+        {"nombre": "Nombre Apellido 5", "horario": "09:30 - 11:30", "edificio": "Bloque 24A", "aula": "A-103", "lat": "-2.14543734", "lng": "-79.96592045"},
+        {"nombre": "Nombre Apellido 6", "horario": "14:30 - 16:30", "edificio": "Bloque 24A", "aula": "A-104", "lat": "-2.14543734", "lng": "-79.96592045"},
+        {"nombre": "Nombre Apellido 7", "horario": "11:30 - 13:30", "edificio": "Bloque 15A", "aula": "15A-01", "lat": "-2.14455819", "lng": "-79.9676156"},
+        {"nombre": "Nombre Apellido 8", "horario": "11:30 - 13:30", "edificio": "Bloque 24A", "aula": "A-104", "lat": "-2.14543734", "lng": "-79.96592045"},
+        {"nombre": "Nombre Apellido 9", "horario": "09:30 - 11:30", "edificio": "Bloque 24A", "aula": "A-105", "lat": "-2.14543734", "lng": "-79.96592045"},
+        {"nombre": "Nombre Apellido 10", "horario": "11:30 - 13:30", "edificio": "Bloque 24A", "aula": "A-103", "lat": "-2.14543734", "lng": "-79.96592045"}
+]}
