@@ -18,11 +18,21 @@ function crearCollapse() {
             }
             $.each(value.clases, function(key, valueClase) {
                 var panelBody = $('<div class="panel-body"></div>');
-                var label = $('<label>Tema: ' + valueClase.tema +'</label>');
+                var label = $('<h4><strong>Tema: ' + valueClase.tema +'<strong></h4>');
                 var p = $('<p>' + valueClase.descripcion +'</p>');
                 panelBody.append(label);
                 panelBody.append(p);
                 panelCollapse.append(panelBody);
+                var panelFooter = $('<div class="panel-footer"></div>');
+                if (valueClase.recursos.length != 0) {
+                    label = $('<label>Recursos</label><br>');
+                    panelFooter.append(label);
+                    $.each(valueClase.recursos, function(key, valueRecursos) {
+                        var a = $('<a href="' + valueRecursos.ruta + '">' + valueRecursos.tipo + ' - ' + valueRecursos.titulo + '</a><br>');
+                        panelFooter.append(a);
+                    });
+                    panelCollapse.append(panelFooter);
+                }
             });           
             panelHeading.append(panelTitle);
             panelDefault.append(panelHeading);
