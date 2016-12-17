@@ -25,7 +25,6 @@ function crearCollapse() {
                 panelCollapse.append(panelBody);
             });           
             panelHeading.append(panelTitle);
-            // panelCollapse.append(panelBody);
             panelDefault.append(panelHeading);
             panelDefault.append(panelCollapse);
             $("#accordion").append(panelDefault);
