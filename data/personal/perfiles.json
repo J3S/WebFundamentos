@@ -1,0 +1,85 @@
+{
+  "perfiles":[
+  {
+	"nombre": "Jose Cedeño Vargas",
+	"correo": "jgcedeno@espol.edu.ec" 
+  },
+  {
+	"nombre": "Genesis Aviles Godoy",
+	"correo": "gkaviles@espol.edu.ec"
+  },
+  {
+	"nombre": "Melanie Cedeño Loor",
+	"correo": "mjcedeno@espol.edu.ec"
+  },
+  {
+	"nombre": "Carlos Palma Mendoza",
+	"correo": "cjpalma@espol.edu.ec"
+  },
+  {
+	"nombre": "Eliza Sanchez Villamar",
+	"correo": "elsanchez@espol.edu.ec"
+  },
+  {
+	"nombre": "Leonardo Jimenez Lam",
+	"correo": "lgjimenez@espol.edu.ec"
+  },
+  {
+	"nombre": "Kevin Matamoros Lopez",
+	"correo": "krmatamoros@espol.edu.ec"
+  },
+  {
+	"nombre": "Luis Tobar Garcia",
+	"correo": "ljtobar@espol.edu.ec"
+  },
+  {
+	"nombre": "Julissa Vargas Castro",
+	"correo": "jtvargas@espol.edu.ec"
+  },
+  {
+	"nombre": "Kevin Gomez Castro",
+	"correo": "kagomez@espol.edu.ec",
+  },
+  {
+	"nombre": "Carlos Salcedo Palma",
+	"correo": "cesalcedo@espol.edu.ec",
+  },
+  {
+	"nombre": "Julissa Vargas Cedeño",
+	"correo": "jjvargas@espol.edu.ec",
+  },
+  {
+	"nombre": "Melanie Cedeño Vargas",
+	"correo": "mfcedeno@espol.edu.ec",
+  },
+  {
+	"nombre": "Enrique Aviles Perez",
+	"correo": "etaviles@espol.edu.ec",
+  },
+  {
+	"nombre": "Leonardo Jimenez Lam",
+	"correo": "lmjimenez@espol.edu.ec",
+  },
+  {
+	"nombre": "Carlos Cedeño Cuenca",
+	"correo": "cgcedeno@espol.edu.ec" 
+  },
+  {
+	"nombre": "Gabriel Godoy Perez",
+	"correo": "gjgodoy@espol.edu.ec"
+  },
+  {
+	"nombre": "Mariela Castro Leon",
+	"correo": "mtcastro@espol.edu.ec"
+  },
+  {
+	"nombre": "Ingrig Mejia Loor",
+	"correo": "igmejia@espol.edu.ec"
+  },
+  {
+	"nombre": "Ramón Toledo Zurita",
+	"correo": "rjtoledo@espol.edu.ec"
+  }
+ ]
+
+}
