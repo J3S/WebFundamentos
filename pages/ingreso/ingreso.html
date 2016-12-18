@@ -7,20 +7,26 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-	<title>Ayudantes de Clase</title>
-	
+    <title>Fundamentos de programaci&oacute;n</title>
+
     <!-- Bootstrap Core CSS -->
     <link href="../../externo/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+
+    <!-- Custom Fonts -->
+    <link href="../../externo/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic" rel="stylesheet" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link href="../../externo/magnific-popup/magnific-popup.css" rel="stylesheet">
+
     <!-- Theme CSS -->
-    <link href="../../externo/bootstrap/css/creative.css" rel="stylesheet">
+    <link href="../../css/creative.css" rel="stylesheet">
     <link href="../../css/mystyles.css" rel="stylesheet">
-    
-    <!-- My Style -->
-    <link href="../../css/personalMateria.css" rel="stylesheet">
+
+    <link href="../../css/ingreso.css" rel="stylesheet">
 </head>
-<body id="page-top">
-<div class="container">
+<body>
 	<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -88,17 +94,41 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-	<main class="container container-centered">
-        <div class="row">
-            <div class="col-xs-12 text-center">
-            	<header>
-            		<h1 class="page-header">Ayudantes de Clases</h1>
-            	</header>
-            </div>
-        </div>
-	</main>
-	<!-- jQuery -->
-    <script src="../../externo/jquery/jquery-2.2.3.min.js"></script>
+
+					 <div id="login-dp" class="row" >
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                or
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div id="pass" class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+
+<script src="../../externo/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../../externo/bootstrap/js/bootstrap.min.js"></script>
@@ -106,12 +136,11 @@
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="../../externo/scrollreveal/scrollreveal.min.js"></script>
-    <script src="../../externo/magnific-popup/jquery.magnific-popup.min.js"></script>
+    
 
-    <!-- My jQuery -->
-	<script type="text/javascript" src="../../js/personalMateria.js"></script>
+    <!-- Theme JavaScript -->
     <script src="../../js/creative.min.js"></script>
+
     <script src="../../js/ingreso.js"></script>
-</div>
 </body>
 </html>
