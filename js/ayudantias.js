@@ -38,7 +38,7 @@ function initMap() {
 function llenarSelectorAyudantes() {
     var options = $("#ayudante");
     options.append("<option>Seleccione a un ayudante</option>")
-    $.getJSON("../../data/ayudantias/horarios.json", function(data) {
+    $.getJSON("../../data/personal/ayudantesClases.json", function(data) {
         $.each(data.ayudantes, function(key, value) {
             options.append("<option>"+ value.nombre + "</option>");
             horarioAyudantes.push('<label class="col-xs-12">Horario: ' + value.horario + '</label>');
