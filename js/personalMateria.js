@@ -9,7 +9,7 @@ function datos(){
 			items.ayudantes.forEach(function(item){
 				$(".container .row").append(
 					
-					'<div id="ayudante" class="col-lg-4 col-sm-6 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p></div>'
+					'<div id="ayudante" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p></div>'
 					
 				);
 			});
@@ -20,7 +20,7 @@ function datos(){
 			items.ayudantesDeberes.forEach(function(item){
 				$(".container .row").append(
 					
-					'<div id="ayudante" class="col-lg-4 col-sm-6 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p></div>'
+					'<div id="ayudante" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p></div>'
 					
 				);
 			});
@@ -34,7 +34,7 @@ function datos(){
 			items.profesores.forEach(function(item){
 				$(".container .row").append(
 					
-					'<div id="ayudante" class="col-lg-4 col-sm-6 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p><p>Oficina:'+item.Oficina+'</p><p>Paralelos:'+item.paralelos+'<p></p></div>'
+					'<div id="ayudante" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p><p>Oficina:'+item.Oficina+'</p><p>Paralelos:'+item.paralelos+'<p></p></div>'
 					
 				);
 			});
@@ -45,7 +45,7 @@ function datos(){
 			items.coordinador.forEach(function(item){
 				$(".container .row").append(
 					
-					'<div id="ayudante" class="col-lg-4 col-sm-6 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p><p>Oficina:'+item.oficina+'</p></div>'
+					'<div id="ayudante" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center"><img class="img-circle img-responsive img-center" src="../../img/PersonalMateria/'+item.imagen+'"></img><h3>'+item.nombre+'</h3><p>Correo:'+item.correo+'</p><p>Oficina:'+item.oficina+'</p></div>'
 					
 				);
 			});
