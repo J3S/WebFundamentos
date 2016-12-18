@@ -1,23 +1,28 @@
 {
   "ayudantesDeberes":[{
-	"imagen": "JoseCedeno.jpg",
-	"nombre": "Carlos Cedeño",
-	"correo": "jgcedeno@espol.edu.ec" 
+	"imagen": "CarlosPalma.jpg",
+	"nombre": "Carlos Cedeño Cuenca",
+	"correo": "cgcedeno@espol.edu.ec" 
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec"
+	"imagen": "KevinMatamoros.jpg",
+	"nombre": "Gabriel Godoy Perez",
+	"correo": "gjgodoy@espol.edu.ec"
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec"
+	"imagen": "ElizaSanchez.jpg",
+	"nombre": "Mariela Castro Leon",
+	"correo": "mtcastro@espol.edu.ec"
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec"
+	"imagen": "MelanieCedeno.jpg",
+	"nombre": "Ingrig Mejia Loor",
+	"correo": "igmejia@espol.edu.ec"
+  },
+  {
+	"imagen": "LuisTobar.jpg",
+	"nombre": "Ramón Toledo Zurita",
+	"correo": "rjtoledo@espol.edu.ec"
   }
  ]
 }

@@ -1,26 +1,44 @@
 {
   "profesores":[{
-	"imagen": "JoseCedeno.jpg",
-	"nombre": "Jose Cedeño",
-	"correo": "jose.gabriel@gmail.com",
+	"imagen": "KevinMatamoros.jpg",
+	"nombre": "Kevin Gomez Castro",
+	"correo": "kagomez@espol.edu.ec",
+	"Oficina": "206-15A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec",
+	"imagen": "CarlosPalma.jpg",
+	"nombre": "Carlos Salcedo Palma",
+	"correo": "cesalcedo@espol.edu.ec",
+	"Oficina": "207-15A",
+	"paralelos": "3-FIEC, 4-FIEC, 7-ICM"
+  },
+  {
+	"imagen": "JulissaVargas.jpg",
+	"nombre": "Julissa Vargas Cedeño",
+	"correo": "jjvargas@espol.edu.ec",
+	"Oficina": "210-15A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec",
+	"imagen": "MelanieCedeno.jpg",
+	"nombre": "Melanie Cedeño Vargas",
+	"correo": "mfcedeno@espol.edu.ec",
+	"Oficina": "106-24A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec",
+	"imagen": "LuisTobar.jpg",
+	"nombre": "Enrique Aviles Perez",
+	"correo": "etaviles@espol.edu.ec",
+	"Oficina": "206-15A",
+	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
+  },
+  {
+	"imagen": "LeonardoGimenez.jpg",
+	"nombre": "Leonardo Jimenez Lam",
+	"correo": "lmjimenez@espol.edu.ec",
+	"Oficina": "211-15A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   }
  ]

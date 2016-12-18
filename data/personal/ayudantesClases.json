@@ -1,23 +1,48 @@
 {
   "ayudantes":[{
 	"imagen": "JoseCedeno.jpg",
-	"nombre": "Jose Cedeño",
-	"correo": "jose.gabriel@gmail.com" 
+	"nombre": "Jose Cedeño Vargas",
+	"correo": "jgcedeno@espol.edu.ec" 
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec"
+	"imagen": "GenesisAviles.jpg",
+	"nombre": "Genesis Aviles Godoy",
+	"correo": "gkaviles@espol.edu.ec"
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec"
+	"imagen": "MelanieCedeno.jpg",
+	"nombre": "Melanie Cedeño Loor",
+	"correo": "mjcedeno@espol.edu.ec"
   },
   {
-	"imagen": "Ejemplo.jpg",
-	"nombre": "Nombre Apellido",
-	"correo": "ejemplo@espol.edu.ec"
+	"imagen": "CarlosPalma.jpg",
+	"nombre": "Carlos Palma Mendoza",
+	"correo": "cjpalma@espol.edu.ec"
+  },
+  {
+	"imagen": "ElizaSanchez.jpg",
+	"nombre": "Eliza Sanchez Villamar",
+	"correo": "elsanchez@espol.edu.ec"
+  },
+  {
+	"imagen": "LeonardoJimenez.jpg",
+	"nombre": "Leonardo Jimenez Lam",
+	"correo": "lgjimenez@espol.edu.ec"
+  },
+  {
+	"imagen": "KevinMatamoros.jpg",
+	"nombre": "Kevin Matamoros Lopez",
+	"correo": "krmatamoros@espol.edu.ec"
+  },
+  {
+	"imagen": "LuisTobar.jpg",
+	"nombre": "Luis Tobar Garcia",
+	"correo": "ljtobar@espol.edu.ec"
+  },
+  {
+	"imagen": "JulissaVargas.jpg",
+	"nombre": "Julissa Vargas Castro",
+	"correo": "jtvargas@espol.edu.ec"
   }
  ]
 }
