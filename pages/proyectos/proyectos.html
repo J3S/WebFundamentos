@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Proyectos</title>
+    <title>Crear Proyecto</title>
     
     <!-- Bootstrap Core CSS -->
     <link href="../../externo/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -49,30 +49,29 @@
 
     <main class="container">
     <header>
-        <h1 class="page-header">Proyectos</h1>
+        <h1 class="page-header">Crear Proyecto</h1>
         
 
 <!-- podemos usar la clase "container" (ancho fijo) o "container-fluid" (ancho completo) -->
 <div class="container">
-    <div class="bs-example">
         <form>
             <fieldset>
             <!-- usamos la clase form-group para optimizar espaciado y separación, agrupando
             los elementos correspondientes a un "campo": etiqueta, control y ayuda -->
 
             <div class="form-group">
-                <label for="nombre">Título del Proyecto</label>
+                <label for="nombre"><h3>Título del Proyecto</h3></label>
                 <!-- Atención: texto de ayuda -->
                 <input name="nombre" id="nombre" type="text" class="form-control" aria-describedby="help-nombre">
             </div>
 
                 <div class="form-group">
-                <label for="descripcion">Descripcion del proyecto</label>
+                <label for="descripcion"><h3>Descripción del proyecto</h3></label>
                 <textarea name="comentario" id="comentario" placeholder="Ingrese la descripción del proyecto" rows="5" class="form-control"></textarea>
             </div>
 
             <div class="form-group">
-                <label>Seleccione sus Etiquetas</label>
+                <label><h3>Seleccione sus Etiquetas</h3></label>
                 <div class="checkbox">
                     <label>
                         <input name="etiquetas" id="etiqueta_1" type="checkbox" value="1">
@@ -91,6 +90,7 @@
                         Python
                     </label>
                 </div>
+
                 <div class="checkbox">
                     <label>
                         <input name="etiquetas" id="etiqueta_4" type="checkbox" value="4">
@@ -110,24 +110,23 @@
                     </label>
                 </div>
             </div>
-
+          
+</div>
+            <label for="archivo"><h3>Cargar Archivo</h3></label>
             <div class="form-group">
-                <label for="foto">Cargar Archivo</label>
-                <input type="file" id="foto" name="foto" accept="*.pdf">
+             
+                <input type="file" id="archivo" name="archivo" accept="*.*" >
+      
             </div>
-     </fieldset>
             <button name="enviar_form1" type="submit" class="btn btn-primary">Enviar</button>
-            <button name="reiniciar_form1" type="reset" class="btn btn-default">Reinicializar</button>
-      </form>
-    </div>
+            <button name="reiniciar_form1" type="reset" class="btn btn-default">Reiniciar</button>
+            </fieldset>
+            
+        </form>
+</div>
 
-    </header>
-
-    
+    </header>    
     </main>
-
-
-
 
 
 
