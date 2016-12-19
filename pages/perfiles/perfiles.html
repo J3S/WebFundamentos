@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
     <title>Perfiles</title>
     
     <!-- Bootstrap Core CSS -->
@@ -68,6 +71,14 @@
             <!-- /For mobile -->
         </header>
 
+        <section class="bg-dark" id="tituloPrincipal">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h1 class="section-heading">PERFILES</h1>
+                    <hr class="primary">
+                </div>
+            </div>
+        </section>
 
         <section class="bg-primary">
             <!-- <div class="container"> -->
@@ -78,26 +89,26 @@
                                 <h2 class="section-heading">Estudiantes</h2>
                                 <hr class="light">
                                     <div class="embed-responsive embed-responsive-4by3">
-                                        <img src="../../img/crear-proyectos.png" height="175" width="175">
+                                        <img src="../../img/perfil.estudiantes.png" height="175" width="175">
                                     </div> 
-                                <a href="#crearProyecto" class="page-scroll btn btn-default btn-xl sr-button">Ver Perfiles</a>
+                                <a href="#verEstudiantes" class="page-scroll btn btn-default btn-xl sr-button">Ver Perfiles</a>
                             </div>
                            
                            <div class="col-lg-4 col-sm-4">
                                 <h2 class="section-heading">Profesores</h2>
                                 <hr class="light">
                                     <div class="embed-responsive embed-responsive-4by3">
-                                        <img src="../../img/ver-proyectos.png" height="175" width="175">
+                                        <img src="../../img/perfiles-profesores.png" height="175" width="175">
                                     </div> 
-                                <a href="#proyectos" class="page-scroll btn btn-default btn-xl sr-button">Ver Perfiles</a>
+                                <a href="#verProfesores" class="page-scroll btn btn-default btn-xl sr-button">Ver Perfiles</a>
                             </div>
                             <div class="col-lg-4 col-sm-4">
                                 <h2 class="section-heading">Buscar Perfil </h2>
                                 <hr class="light">
                                     <div class="embed-responsive embed-responsive-4by3">
-                                        <img src="../../img/ver-proyectos.png" height="175" width="175">
+                                        <img src="../../img/perfiles-busqueda.png" height="175" width="175">
                                     </div> 
-                                <a href="#proyectos" class="page-scroll btn btn-default btn-xl sr-button">Buscar Perfil</a>
+                                <a href="#buscar" class="page-scroll btn btn-default btn-xl sr-button">Buscar Perfil</a>
                             </div>
                         </div>
                     </div>
@@ -105,85 +116,350 @@
             <!-- </div> -->
         </section>
 
-        <section class="bg-secondary" id="crearProyecto">
+        <section class="bg-secondary" id="verEstudiantes">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <h2 class="section-heading">Crear Proyecto</h2>
+                    <h2 class="section-heading"><b>Perfiles de Estudiantes</b></h2>
                     <hr class="primary">
                 </div>
             </div>
+
+            <div class="container">
             <div class="row">
-                <div class="col-xs-12 text-center">
-                    <div class="service-box">
-                        <label for="nombre"><h4><b>Título del Proyecto</b></h4></label>
-                        <!-- Atención: texto de ayuda -->
-                        <input name="nombre" id="nombre" type="text" class="form-control" aria-describedby="help-nombre">
-
-                        <label for="descripcion"><h4><b>Descripción del proyecto</b></h4></label>
-                        <textarea name="comentario" id="comentario" placeholder="Ingrese la descripción del proyecto" rows="5" class="form-control"></textarea>
-
-                        <div class="form-group">
-                            <label><h4><b>Seleccione sus Etiquetas</b></h4></label>
-                            <div class="checkbox">
-                                <label>
-                                    <input name="etiquetas" id="etiqueta_1" type="checkbox" value="1">
-                                    Pseudocodigo y Algoritmos
-                                </label>
+                <div class="col-xs-4 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
                             </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input name="etiquetas" id="etiqueta_2" type="checkbox" value="2">
-                                    Manejo de Variables
-                                </label>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
                             </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input name="etiquetas" id="etiqueta_3" type="checkbox" value="3">
-                                    Python
-                                </label>
-                            </div>
-
-                            <div class="checkbox">
-                                <label>
-                                    <input name="etiquetas" id="etiqueta_4" type="checkbox" value="4">
-                                    Java
-                                </label>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input name="etiquetas" id="etiqueta_5" type="checkbox" value="5">
-                                    Arreglos 1 dimension
-                                </label>
-                            </div>
-                            <div class="checkbox">
-                                <label>
-                                    <input name="etiquetas" id="etiqueta_6" type="checkbox" value="6">
-                                    Arreglos 2 dimensiones
-                                </label>
                             </div>
                         </div>
-
-                        <label for="archivo"><h4><b>Cargar Archivo</b></h4></label>
-                        <div class="form-group">
-                            <input type="file" id="archivo" name="archivo" accept="*.*" >
-                        </div>
-                        <button name="enviar_form1" type="submit" class="btn btn-primary btn-lg">Subir</button>
-                     
                     </div>
                 </div>
             </div>
+            </div>
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                            </div>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                            </div>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                            </div>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </section>
 
-        <section class="bg-dark" id="proyectos">
+        <section class="bg-dark" id="verProfesores">
             <div class="row">
                 <div class="col-xs-12 text-center">
-                    <h2 class="section-heading">Proyectos</h2>
+                    <h2 class="section-heading"><b>Perfiles de Profesores</b></h2>
+                    <hr class="primary">
+                </div>
+            </div>
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                            </div>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                            </div>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                            </div>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+
+            <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="well well-sm">
+                        <div class="row">
+                            <div class="col-sm-6 col-md-4">
+                                <img src="http://placehold.it/380x500" alt="" class="img-rounded img-responsive" />
+                            </div>
+                            <div class="col-sm-6 col-md-8">
+                                <h4>Bhaumik Patel</h4>
+                                <small><cite title="San Francisco, USA">San Francisco, USA <i class="glyphicon glyphicon-map-marker">
+                                </i></cite></small>
+                                <p><i class="glyphicon glyphicon-envelope"></i>email@example.com<br/>
+                                <i class="glyphicon glyphicon-globe"></i><a href="http://www.jquery2dotnet.com">www.jquery2dotnet.com</a>
+                                <br />
+                                <i class="glyphicon glyphicon-gift"></i>June 02, 1988</p>
+                            <!-- Split button -->
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-primary">
+                                Social</button>
+                                <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                                    <span class="caret"></span><span class="sr-only">Social</span>
+                                </button>
+                                <ul class="dropdown-menu" role="menu">
+                                    <li><a href="#">Twitter</a></li>
+                                    <li><a href="https://plus.google.com/+Jquery2dotnet/posts">Google +</a></li>
+                                    <li><a href="https://www.facebook.com/jquery2dotnet">Facebook</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="#">Github</a></li>
+                                </ul>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+        </section>
+
+        <section class="bg-dark" id="buscar">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <h2 class="section-heading"><b>Buscar </b></h2>
                     <hr class="primary">
                 </div>
             </div>
         </section>
 
-        
+
+
     </div>     
 <!-- jQuery -->
     <script src="../../externo/jquery/jquery.min.js"></script>
