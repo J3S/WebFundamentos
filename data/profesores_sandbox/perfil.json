@@ -1,0 +1,16 @@
+{
+    "nombre": "Stephany Paola Suárez Solis",
+    "correo": "spao@espol.edu.ec",
+    "fechaNac": "22/02/1997",
+    "numEjerciciosAportados": 61,
+    "nivel": "Semi-Dios",
+    "imagen": "../../../../img/sandbox/avatar2.png",
+    "nivelesDisponibles": 
+    [
+        {"nombre": "Aprendiz", "numEjerciciosResueltos": 12},
+        {"nombre": "Ninja", "numEjerciciosResueltos": 30},
+        {"nombre": "Samurai", "numEjerciciosResueltos": 50},
+        {"nombre": "Semi-Dios", "numEjerciciosResueltos": 75},
+        {"nombre": "Dios", "numEjerciciosResueltos": 75}
+    ]
+}

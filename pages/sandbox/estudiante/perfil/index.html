@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Sandbox | Profesor</title>
+  <title>Sandbox | Estudiante</title>
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="../../../externo/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../externo/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../../externo/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../../externo/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="../../../externo/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="../../../../externo/ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../../externo/admin-lte/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../../../../externo/admin-lte/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="../../../externo/admin-lte/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="../../../../externo/admin-lte/css/skins/_all-skins.min.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -53,25 +53,25 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img class="user-image" alt="User Image" id="imagen-menu">
-              <span class="hidden-xs" id="nombre-menu">Alexander Pierce</span>
+              <span class="hidden-xs nombre" id="nombre-menu">Alexander Pierce</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
               <li class="user-header">
                 <img class="img-circle" alt="User Image" id="imagen-popup-menu">
 
-                <p id="nombre-popup-menu">
+                <p class="nombre" id="nombre-popup-menu">
                   Alexander Pierce - Web Developer
                   <small>Member since Nov. 2012</small>
                 </p>
               </li>
               <!-- Menu Footer-->
-              <li class="user-footer">
+                            <li class="user-footer">
                 <div class="pull-left">
-                  <a href="./perfil" class="btn btn-default btn-flat">Perfil</a>
+                  <a href="#" class="btn btn-default btn-flat">Perfil</a>
                 </div>
                 <div class="pull-right">
-                  <a href="../../../" class="btn btn-default btn-flat">Cerrar sesión</a>
+                  <a href="../../../../" class="btn btn-default btn-flat">Cerrar sesión</a>
                 </div>
               </li>
             </ul>
@@ -104,10 +104,8 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">Opciones</li>
-        <li class="active"><a href="#"><i class="fa fa-tasks"></i> <span>Resumen</span></a></li>
-        <li><a href="./ejercicios"><i class="fa fa-book"></i> <span>Ejercicios</span></a></li>
-        <li><a href="./mis_ejercicios"><i class="fa fa-folder-open"></i> <span>Mis ejercicios</span></a></li>
-        <li><a href="./proyectos"><i class="fa fa-cogs"></i> <span>Proyectos</span></a></li>
+        <li><a href="../"><i class="fa fa-tasks"></i> <span>Resumen</span></a></li>
+        <li><a href="../ejercicios"><i class="fa fa-book"></i> <span>Ejercicios</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -120,12 +118,11 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-        Estadísticas
-        <small>de ejercicios ingresados</small>
+        Perfil
       </h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Resumen</li>
+        <li class="active">Perfil</li>
       </ol>
     </section>
 
@@ -133,28 +130,32 @@
     <section class="content">
 
 
-          <!-- LINE CHART -->
-          <div class="box box-info">
-            <div class="box-header with-border">
-              <h3 class="box-title">Ejercicios ingresados en la última semana</h3>
-            </div>
-            <div class="box-body">
-              <div class="chart">
-                <canvas id="lineChart" style="height:250px"></canvas>
+          <div class="row">
+            <div class="col-xs-12">
+              <!-- Profile Image -->
+              <div class="box box-primary">
+                <div class="box-body box-profile">
+                  <div class="col-md-3">
+                    <img class="profile-user-img img-responsive img-circle" alt="User profile picture" id="imagen">
+                    <h3 class="profile-username text-center" id="nombre"></h3>
+                    <p class="text-muted text-center" id="correo"></p>
+                  </div>
+                  <div class="col-md-9">
+                    <strong><i class="fa fa-birthday-cake margin-r-5"></i> Fecha de nacimiento</strong>
+                    <p class="text-muted" id="fecha-nac"></p>
+                    <hr>
+                    <strong><i class="fa fa-pencil margin-r-5"></i> Ejercicios resueltos</strong>
+                    <p class="text-muted" id="num-resueltos"></p>
+                    <hr>
+                    <strong><i class="fa fa-tachometer margin-r-5"></i> Nivel</strong>
+                    <p class="text-muted" id="nivel"></p>
+                  </div>
+                </div>
+                <!-- /.box-body -->
               </div>
+              <!-- /.box -->
             </div>
-            <div class="box-header with-border">
-              <h3 class="box-title">Porcentaje ingresado por nivel</h3>
-            </div>
-            <div class="box-body">
-              <div class="row" id="nivel"></div>
-            </div>
-            <!-- /.box-body -->
           </div>
-          <!-- /.box -->
-
-
-
     </section>
     <!-- /.content -->
   </div>
@@ -193,20 +194,20 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../../../externo/jquery/jquery-2.2.3.min.js"></script>
+<script src="../../../../externo/jquery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="../../../externo/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../../../externo/bootstrap/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->
-<script src="../../../externo/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../../../../externo/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="../../../externo/fastclick/fastclick.js"></script>
+<script src="../../../../externo/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="../../../externo/admin-lte/js/app.min.js"></script>
+<script src="../../../../externo/admin-lte/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../../../externo/admin-lte/js/demo.js"></script>
-<script src="../../../externo/chartjs/Chart.js"></script>
-<script src="../../../externo/knob/jquery.knob.js"></script>
-<script src="../../../js/sandbox_profesor.js"></script>
-<script src="../../../js/sandbox_profesor_cargar_datos.js"></script>
+<script src="../../../../externo/admin-lte/js/demo.js"></script>
+<script src="../../../../externo/chartjs/Chart.js"></script>
+<script src="../../../../externo/knob/jquery.knob.js"></script>
+<script src="../../../../js/sandbox_estudiante_perfil.js"></script>
+<script src="../../../../js/sandbox_estudiante_cargar_datos_no_principal.js"></script>
 </body>
 </html>

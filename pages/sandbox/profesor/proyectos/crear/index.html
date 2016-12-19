@@ -7,16 +7,20 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <!-- Bootstrap 3.3.6 -->
-  <link rel="stylesheet" href="../../../externo/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../../../../externo/bootstrap/css/bootstrap.min.css">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../../../externo/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="../../../../../externo/font-awesome/css/font-awesome.min.css">
   <!-- Ionicons -->
-  <link rel="stylesheet" href="../../../externo/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="../../../../../externo/ionicons/css/ionicons.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../../../externo/admin-lte/css/AdminLTE.min.css">
+  <link rel="stylesheet" href="../../../../../externo/admin-lte/css/AdminLTE.min.css">
   <!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-  <link rel="stylesheet" href="../../../externo/admin-lte/css/skins/_all-skins.min.css">
+  <link rel="stylesheet" href="../../../../../externo/admin-lte/css/skins/_all-skins.min.css">
+  <!-- DataTable style -->
+  <link rel="stylesheet" href="../../../../../externo/dataTables/css/dataTables.bootstrap.css">
+
+  <link rel="stylesheet" href="../../../../../css/ayudantias.css">
 
   <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -68,10 +72,10 @@
               <!-- Menu Footer-->
               <li class="user-footer">
                 <div class="pull-left">
-                  <a href="./perfil" class="btn btn-default btn-flat">Perfil</a>
+                  <a href="../../perfil" class="btn btn-default btn-flat">Perfil</a>
                 </div>
                 <div class="pull-right">
-                  <a href="../../../" class="btn btn-default btn-flat">Cerrar sesión</a>
+                  <a href="../../../../../" class="btn btn-default btn-flat">Cerrar sesión</a>
                 </div>
               </li>
             </ul>
@@ -104,10 +108,10 @@
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu">
         <li class="header">Opciones</li>
-        <li class="active"><a href="#"><i class="fa fa-tasks"></i> <span>Resumen</span></a></li>
-        <li><a href="./ejercicios"><i class="fa fa-book"></i> <span>Ejercicios</span></a></li>
-        <li><a href="./mis_ejercicios"><i class="fa fa-folder-open"></i> <span>Mis ejercicios</span></a></li>
-        <li><a href="./proyectos"><i class="fa fa-cogs"></i> <span>Proyectos</span></a></li>
+        <li><a href="../../"><i class="fa fa-tasks"></i> <span>Resumen</span></a></li>
+        <li><a href="../../ejercicios"><i class="fa fa-book"></i> <span>Ejercicios</span></a></li>
+        <li class="active"><a href="../../mis_ejercicios"><i class="fa fa-folder-open"></i> <span>Mis ejercicios</span></a></li>
+        <li><a href="../../proyectos"><i class="fa fa-cogs"></i> <span>Proyectos</span></a></li>
       </ul>
     </section>
     <!-- /.sidebar -->
@@ -119,42 +123,77 @@
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
     <section class="content-header">
-      <h1>
-        Estadísticas
-        <small>de ejercicios ingresados</small>
-      </h1>
+      <h1>Crear proyecto</h1>
       <ol class="breadcrumb">
         <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Resumen</li>
+        <li>Proyectos</li>
+        <li class="active">Crear</li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-
-
-          <!-- LINE CHART -->
-          <div class="box box-info">
-            <div class="box-header with-border">
-              <h3 class="box-title">Ejercicios ingresados en la última semana</h3>
-            </div>
-            <div class="box-body">
-              <div class="chart">
-                <canvas id="lineChart" style="height:250px"></canvas>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="box box-primary">
+            <!-- form start -->
+            <form role="form" id="form-crear">
+              <div class="box-body">
+                <div class="row">
+                  <div class="form-group col-sm-9" id="titulo-group">
+                    <label for="titulo">Título</label>
+                    <input type="text" class="form-control" id="titulo" placeholder="Título del proyecto">
+                    <p class="hidden text-danger" id="msg-titulo">Título vacío</p>
+                  </div>
+                  <div class="form-group col-sm-3" id="fecha-group">
+                    <label for="fecha">Fecha de entrega</label>
+                    <input type="date" class="form-control" id="fecha">
+                    <p class="hidden text-danger" id="msg-fecha">Fecha vacía</p>
+                  </div>
+                </div>
+                
+                <div class="form-group" id="descripcion-group">
+                  <label for="descripcion">Descripción</label>
+                  <textarea class="form-control" rows="3" id="descripcion" placeholder="Descripción del proyecto"></textarea>
+                  <p class="hidden text-danger" id="msg-descripcion">Descripción vacía</p>
+                </div>
+                <div class="form-group" id="etiquetas-group">
+                  <div class="row">
+                    <div class="col-sm-6">
+                      <label for="titulo">Etiquetas</label>
+                      <div class="row">
+                        <div class="col-sm-10">
+                          <select class="form-control" id="etiquetas">
+                          </select>
+                        </div>
+                        <div class="col-sm-2">
+                          <button type="button" class="btn btn-primary" id="agregar-etiqueta">Agregar</button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm-5 col-sm-push-1">
+                        <div class="col-sm-12" id="etiquetas-agregadas">
+                          <label for="titulo">Etiquetas Agregadas</label>
+                        </div>
+                    </div>
+                  </div>
+                  <p class="hidden text-danger" id="msg-etiquetas">No se han agregado etiquetas</p>
+                </div>
+                <div class="form-group" id="archivo-group">
+                  <label for="exampleInputFile">Archivo del proyecto</label>
+                  <input type="file" id="exampleInputFile" class="form-control">
+                  <p class="hidden text-danger" id="msg-archivo">No se ha agregado ningún archivo</p>
+                </div>
               </div>
-            </div>
-            <div class="box-header with-border">
-              <h3 class="box-title">Porcentaje ingresado por nivel</h3>
-            </div>
-            <div class="box-body">
-              <div class="row" id="nivel"></div>
-            </div>
-            <!-- /.box-body -->
+              <!-- /.box-body -->
+
+              <div class="box-footer text-center">
+                <button type="submit" class="btn btn-primary" id="crear-ejercicio">Crear</button>
+              </div>
+            </form>
           </div>
-          <!-- /.box -->
-
-
-
+        </div>
+      </div>
     </section>
     <!-- /.content -->
   </div>
@@ -193,20 +232,23 @@
 <!-- ./wrapper -->
 
 <!-- jQuery 2.2.3 -->
-<script src="../../../externo/jquery/jquery-2.2.3.min.js"></script>
+<script src="../../../../../externo/jquery/jquery-2.2.3.min.js"></script>
 <!-- Bootstrap 3.3.6 -->
-<script src="../../../externo/bootstrap/js/bootstrap.min.js"></script>
+<script src="../../../../../externo/bootstrap/js/bootstrap.min.js"></script>
 <!-- SlimScroll -->
-<script src="../../../externo/slimScroll/jquery.slimscroll.min.js"></script>
+<script src="../../../../../externo/slimScroll/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="../../../externo/fastclick/fastclick.js"></script>
+<script src="../../../../../externo/fastclick/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="../../../externo/admin-lte/js/app.min.js"></script>
+<script src="../../../../../externo/admin-lte/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="../../../externo/admin-lte/js/demo.js"></script>
-<script src="../../../externo/chartjs/Chart.js"></script>
-<script src="../../../externo/knob/jquery.knob.js"></script>
-<script src="../../../js/sandbox_profesor.js"></script>
-<script src="../../../js/sandbox_profesor_cargar_datos.js"></script>
+<script src="../../../../../externo/admin-lte/js/demo.js"></script>
+<!-- DataTable -->
+<script type="text/javascript" language="javascript" src="../../../../../externo/dataTables/js/jquery.dataTables.js"></script>
+<script type="text/javascript" language="javascript" src="../../../../../externo/dataTables/js/dataTables.bootstrap.js"></script>
+
+<script src="../../../../../js/sandbox_profesor_crear_proyecto.js"></script>
+<script src="../../../../../js/sandbox_profesor_cargar_datos_no_principal1.js"></script>
+
 </body>
 </html>

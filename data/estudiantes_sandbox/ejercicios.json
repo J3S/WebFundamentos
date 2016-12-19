@@ -1,0 +1,88 @@
+{
+    "ejerciciosDificultad": 
+    [
+        {"dificultad": "Principiante", "porcentajeResuelto": 70, "icon": "fa fa-cube", "color": "bg-blue"},
+        {"dificultad": "Básico", "porcentajeResuelto": 63, "icon": "fa fa-cubes", "color": "bg-orange"},
+        {"dificultad": "Intermedio I", "porcentajeResuelto": 46, "icon": "fa fa-bicycle", "color": "bg-green"},
+        {"dificultad": "Intermedio II", "porcentajeResuelto": 39, "icon": "fa fa-motorcycle", "color": "bg-teal"},
+        {"dificultad": "Avanzado", "porcentajeResuelto": 22, "icon": "fa fa-car", "color": "bg-purple"}
+    ],
+    "listaEjerciciosDisponibles":
+    [
+        {"nivel": "Principiante", "lista": 
+        [
+            {"titulo": "Ejercicio principiante 1", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio principiante 2", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio principiante 3", "autor": "Profesor  W"},
+            {"titulo": "Ejercicio principiante 4", "autor": "Profesor  R"},
+            {"titulo": "Ejercicio principiante 5", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio principiante 6", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio principiante 7", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio principiante 8", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio principiante 9", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio principiante 10", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio principiante 11", "autor": "Profesor  E"},
+            {"titulo": "Ejercicio principiante 12", "autor": "Profesor  E"},
+            {"titulo": "Ejercicio principiante 13", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio principiante 14", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio principiante 15", "autor": "Profesor  A"}
+        ]},
+        {"nivel": "Básico", "lista":
+        [
+            {"titulo": "Ejercicio básico 1", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio básico 2", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio básico 3", "autor": "Profesor  W"},
+            {"titulo": "Ejercicio básico 4", "autor": "Profesor  R"},
+            {"titulo": "Ejercicio básico 5", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio básico 6", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio básico 7", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio básico 8", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio básico 9", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio básico 10", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio básico 11", "autor": "Profesor  E"},
+            {"titulo": "Ejercicio básico 12", "autor": "Profesor  E"},
+            {"titulo": "Ejercicio básico 13", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio básico 14", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio básico 15", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio básico 16", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio básico 17", "autor": "Profesor  E"},
+            {"titulo": "Ejercicio básico 18", "autor": "Profesor  E"},
+            {"titulo": "Ejercicio básico 19", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio básico 20", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio básico 21", "autor": "Profesor  A"}
+        ]},
+        {"nivel": "Intermedio I", "lista":
+        [
+            {"titulo": "Ejercicio intermedio I 1", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio intermedio I 2", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio intermedio I 3", "autor": "Profesor  W"},
+            {"titulo": "Ejercicio intermedio I 4", "autor": "Profesor  R"},
+            {"titulo": "Ejercicio intermedio I 5", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio intermedio I 6", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio intermedio I 7", "autor": "Profesor  C"},
+            {"titulo": "Ejercicio intermedio I 8", "autor": "Profesor  C"}
+        ]},
+        {"nivel": "Intermedio II", "lista":
+        [
+            {"titulo": "Ejercicio intermedio II 1", "autor": "Profesor  R"},
+            {"titulo": "Ejercicio intermedio II 2", "autor": "Profesor  T"},
+            {"titulo": "Ejercicio intermedio II 3", "autor": "Profesor  T"},
+            {"titulo": "Ejercicio intermedio II 4", "autor": "Profesor  Y"},
+            {"titulo": "Ejercicio intermedio II 5", "autor": "Profesor  D"},
+            {"titulo": "Ejercicio intermedio II 6", "autor": "Profesor  D"},
+            {"titulo": "Ejercicio intermedio II 7", "autor": "Profesor  D"},
+            {"titulo": "Ejercicio intermedio II 8", "autor": "Profesor  A"}
+        ]},
+        {"nivel": "Avanzado", "lista":
+        [
+            {"titulo": "Ejercicio Avanzado 1", "autor": "Profesor  F"},
+            {"titulo": "Ejercicio Avanzado 2", "autor": "Profesor  F"},
+            {"titulo": "Ejercicio Avanzado 3", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio Avanzado 4", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio Avanzado 5", "autor": "Profesor  B"},
+            {"titulo": "Ejercicio Avanzado 6", "autor": "Profesor  A"},
+            {"titulo": "Ejercicio Avanzado 7", "autor": "Profesor  D"},
+            {"titulo": "Ejercicio Avanzado 8", "autor": "Profesor  D"}
+        ]}
+    ]
+}

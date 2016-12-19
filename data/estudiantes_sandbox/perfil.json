@@ -1,0 +1,16 @@
+{
+    "nombre": "Johnny Smith Suárez Solis",
+    "correo": "jssuarez@espol.edu.ec",
+    "fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 24,
+    "nivel": "Junior",
+    "nivelesDisponibles": 
+    [
+        {"nombre": "Aprendiz", "numEjerciciosResueltos": 12},
+        {"nombre": "Junior", "numEjerciciosResueltos": 30},
+        {"nombre": "Semi-Senior", "numEjerciciosResueltos": 50},
+        {"nombre": "Senior", "numEjerciciosResueltos": 75},
+        {"nombre": "Master", "numEjerciciosResueltos": 75}
+    ],
+    "imagen": "../../../../img/sandbox/avatar.png"
+}

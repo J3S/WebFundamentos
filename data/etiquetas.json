@@ -1,0 +1,12 @@
+{
+    "etiqueta": [
+    {"nombre": "Variables"},
+    {"nombre": "Estructuras de control"},
+    {"nombre": "Funciones"},
+    {"nombre": "Strings"},
+    {"nombre": "Modularización"},
+    {"nombre": "Archivos"},
+    {"nombre": "Numpy"},
+    {"nombre": "Listas"},
+    {"nombre": "Diccionarios"}
+]}

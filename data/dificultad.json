@@ -1,0 +1,8 @@
+{
+    "dificultad": [
+    {"nombre": "Principiante"},
+    {"nombre": "Básico"},
+    {"nombre": "Intermedio I"},
+    {"nombre": "Intermedio II"},
+    {"nombre": "Avanzado"}
+]}

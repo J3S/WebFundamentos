@@ -1,0 +1,4 @@
+{
+    "linechart": {"labels": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"], "data": [2,0,5,3,4,6,8]},
+    "knobChart": {"data": [22,16,40,19,3], "color": ["#3c8dbc","#f56954","#00a65a","#00c0ef","#932ab6"], "labels": ["Principiante", "Básico", "Intermedio 1", "Intermedio 2", "Avanzado"]}
+}
