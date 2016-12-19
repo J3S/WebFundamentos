@@ -1,0 +1,61 @@
+{
+  "perfilesProfesores":[
+
+{
+	"nombre": "Enrique Aviles Perez",
+	"correo": "etaviles@espol.edu.ec",
+	"tipo": "p",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 8,
+    "nivel": "Ninja",
+  },
+  {
+	"nombre": "Leonardo Jimenez Lam",
+	"correo": "lmjimenez@espol.edu.ec",
+	"tipo": "p",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 201,
+    "nivel": "Dios",
+  },
+  {
+	"nombre": "Carlos Cedeño Cuenca",
+	"correo": "cgcedeno@espol.edu.ec",
+	"tipo": "p",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 3,
+    "nivel": "Ninja", 
+  },
+  {
+	"nombre": "Gabriel Godoy Perez",
+	"correo": "gjgodoy@espol.edu.ec",
+	"tipo": "p",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 83,
+    "nivel": "Samurai",
+  },
+  {
+	"nombre": "Mariela Castro Leon",
+	"correo": "mtcastro@espol.edu.ec",
+	"tipo": "p",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 129,
+    "nivel": "Semi-Dios",
+  },
+  {
+	"nombre": "Ingrig Mejia Loor",
+	"correo": "igmejia@espol.edu.ec",
+	"tipo": "p",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 43,
+    "nivel": "Ninja",
+  },
+  {
+	"nombre": "Ramón Toledo Zurita",
+	"correo": "rjtoledo@espol.edu.ec",
+	"tipo": "p",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 58,
+    "nivel": "Samurai",
+  }
+ ]
+}

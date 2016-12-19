@@ -1,0 +1,96 @@
+{
+  "perfilesEstudiantes":[
+  {
+	"nombre": "Jose Cedeño Vargas",
+	"correo": "jgcedeno@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 24,
+    "nivel": "Junior",
+  },
+  {
+	"nombre": "Genesis Aviles Godoy",
+	"correo": "gkaviles@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 50,
+    "nivel": "Semi-Senior",
+  },
+  {
+	"nombre": "Melanie Cedeño Loor",
+	"correo": "mjcedeno@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 75,
+    "nivel": "Semi-Senior",
+  },
+  {
+	"nombre": "Carlos Palma Mendoza",
+	"correo": "cjpalma@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 100,
+    "nivel": "Senior",
+  },
+  {
+	"nombre": "Eliza Sanchez Villamar",
+	"correo": "elsanchez@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 150,
+    "nivel": "Senior",
+  },
+  {
+	"nombre": "Leonardo Jimenez Lam",
+	"correo": "lgjimenez@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 175,
+    "nivel": "Senior",
+  },
+  {
+	"nombre": "Kevin Matamoros Lopez",
+	"correo": "krmatamoros@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 103,
+    "nivel": "Senior",
+  },
+  {
+	"nombre": "Luis Tobar Garcia",
+	"correo": "ljtobar@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 28,
+    "nivel": "Junior",
+  },
+  {
+	"nombre": "Julissa Vargas Castro",
+	"correo": "jtvargas@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 13,
+    "nivel": "Junior",
+  },
+  {
+	"nombre": "Kevin Gomez Castro",
+	"correo": "kagomez@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 43,
+    "nivel": "Junior",
+  },
+  {
+	"nombre": "Carlos Salcedo Palma",
+	"correo": "cesalcedo@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 78,
+    "nivel": "Semi-Senior",
+  },
+  {
+	"nombre": "Julissa Vargas Cedeño",
+	"correo": "jjvargas@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 82,
+    "nivel": "Semi-Senior",
+  },
+  {
+	"nombre": "Melanie Cedeño Vargas",
+	"correo": "mfcedeno@espol.edu.ec",
+	"fechaNac": "26/06/1993",
+    "numEjerciciosResueltos": 4,
+    "nivel": "Junior",
+  }
+ ]
+
+}
