@@ -1,44 +1,44 @@
 {
   "profesores":[{
-	"imagen": "KevinMatamoros.jpg",
-	"nombre": "Kevin Gomez Castro",
-	"correo": "kagomez@espol.edu.ec",
+	"imagen": "CarmenVaca.jpg",
+	"nombre": "Karina Carmen Vaca Ruiz",
+	"correo": "cvaca@fiec.espol.edu.ec",
 	"Oficina": "206-15A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   },
   {
-	"imagen": "CarlosPalma.jpg",
-	"nombre": "Carlos Salcedo Palma",
-	"correo": "cesalcedo@espol.edu.ec",
+	"imagen": "MarcosCalderon.jpg",
+	"nombre": "CMarco Antonio Calderon Arguello",
+	"correo": "ancalder@espol.edu.ec",
 	"Oficina": "207-15A",
 	"paralelos": "3-FIEC, 4-FIEC, 7-ICM"
   },
   {
-	"imagen": "JulissaVargas.jpg",
-	"nombre": "Julissa Vargas Cedeño",
-	"correo": "jjvargas@espol.edu.ec",
+	"imagen": "JorgeMagallanes.jpg",
+	"nombre": "Jorge Antonio Magallanes Borbor",
+	"correo": "jmagalla@espol.edu.ec",
 	"Oficina": "210-15A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   },
   {
-	"imagen": "MelanieCedeno.jpg",
-	"nombre": "Melanie Cedeño Vargas",
-	"correo": "mfcedeno@espol.edu.ec",
+	"imagen": "CruzFalcones.jpg",
+	"nombre": "Cruz Maria Falcones Montesdeoca",
+	"correo": "cfalcone@espol.edu.ec",
 	"Oficina": "106-24A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   },
   {
-	"imagen": "LuisTobar.jpg",
-	"nombre": "Enrique Aviles Perez",
-	"correo": "etaviles@espol.edu.ec",
+	"imagen": "RafaelBonilla.jpg",
+	"nombre": "Rafael Ignacio Bonilla",
+	"correo": "rabonilla@espol.edu.ec",
 	"Oficina": "206-15A",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   },
   {
-	"imagen": "LeonardoGimenez.jpg",
-	"nombre": "Leonardo Jimenez Lam",
-	"correo": "lmjimenez@espol.edu.ec",
-	"Oficina": "211-15A",
+	"imagen": "EduardoCruz.jpg",
+	"nombre": "Eduardo Segundo Cruz Ramirez",
+	"correo": "escruz@espol.edu.ec",
+	"Oficina": "24A-211",
 	"paralelos": "2-FIEC, 5-FIEC, 2-ICM"
   }
  ]
