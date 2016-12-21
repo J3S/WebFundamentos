@@ -2,11 +2,24 @@ $(document).ready(function(){
 
 
 var url = document.location.toString();
-if (url.match('#')) {
-	$('.nav-tabs a[href="#'+url.split('#')[1]+'"]').tab('show') ;
-	var x = url.substring(url.lastIndexOf('#')+1);
-	
-	if (x === 'coordinador'){
+// if (url.match('#')) {
+	// $('.nav-tabs a[href="#'+url.split('#')[1]+'"]').tab('show') ;
+	// var x = url.substring(url.lastIndexOf('#')+1);
+var url_id = url.split("#")[1];
+console.log(url_id);
+console.log(url_id ==="profesores");
+    if (url_id ==="profesores") {
+        $('.nav-tabs a[href="#profesores"]').tab('show');
+    } else if (url_id ==="coordinador") {
+        $('.nav-tabs a[href="#coordinador"]').tab('show');
+    } else if (url_id ==="ayudantes-c") {
+        $('.nav-tabs a[href="#ayudantes-c"]').tab('show');
+    } else if (url_id ==="ayudantes-d") {
+        $('.nav-tabs a[href="#ayudantes-d"]').tab('show');
+    }
+
+              if($('#coordinador-materia').html() == "") {
+	// if (x === 'coordinador'){
 		$.getJSON("../../data/personal/coordinador.json",{}, function(items){
                                 console.log(items);
 				items.coordinador.forEach(function(item){
@@ -22,8 +35,9 @@ if (url.match('#')) {
 
 
 
-    $('.nav-tabs a[href="#ayudantes-c"]').click(function(){
-        $(this).tab('show');
+
+    // $('.nav-tabs a[href="#ayudantes-c"]').click(function(){
+        // $(this).tab('show');
         if($('#ayudantes-clases').html() == "") {
        
 	        $.getJSON("../../data/personal/ayudantesClases.json",{}, function(items){
@@ -36,9 +50,9 @@ if (url.match('#')) {
 				});
 			})
     	}
-    });
-    $('.nav-tabs a[href="#ayudantes-d"]').click(function(){
-        $(this).tab('show');
+    // });
+    // $('.nav-tabs a[href="#ayudantes-d"]').click(function(){
+    //     $(this).tab('show');
         if($('#ayudantes-deberes').html() == "") {
 	        $.getJSON("../../data/personal/ayudantesDeberes.json",{}, function(items){
 				items.ayudantesDeberes.forEach(function(item){
@@ -50,9 +64,9 @@ if (url.match('#')) {
 				});
 			})
     	}
-    });
-    $('.nav-tabs a[href="#profesores"]').click(function(){
-        $(this).tab('show');
+    // });
+    // $('.nav-tabs a[href="#profesores"]').click(function(){
+    //     $(this).tab('show');
         if($('#profesores-materia').html() == "") {
 	        $.getJSON("../../data/personal/profesores.json",{}, function(items){
 				items.profesores.forEach(function(item){
@@ -64,9 +78,9 @@ if (url.match('#')) {
 				});
 			})
 		}
-    });
+    // });
     
-  }
+  // }
 });
 
 
