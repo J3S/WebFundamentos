@@ -6,14 +6,13 @@ function crearCollapse() {
         var i = 0;
         $.each(data.semanas, function(key, value) {
             var panelDefault = $('<div class="panel panel-default"></div>');
-            var panelHeading = $('<div class="panel-heading" role="tab" id="heading' + i + '"></div>');
+            var panelHeading = $('<div class="panel-heading accordion-toggle" role="tab" id="heading' + i + '" data-toggle="collapse" href="#collapse' +
+                                        i + '"></div>');
             if (i == 0) {
-                var panelTitle = $('<h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' +
-                                        i + '" aria-expanded="true" aria-controls="collapse' + i + '">' + "Semana #" + value.numero + " - Capítulo " + value.capitulo + '</a></h4>');
+                var panelTitle = $('<h4 class="panel-title"><a role="button"  data-parent="#accordion" aria-expanded="true" aria-controls="collapse' + i + '">' + "Semana #" + value.numero + " - Capítulo " + value.capitulo + '</a></h4>');
                 var panelCollapse = $('<div id="collapse' + i + '" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="heading' + i + '"></div>');
             } else {
-                var panelTitle = $('<h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse' +
-                                        i + '" aria-expanded="false" aria-controls="collapse' + i + '">' + "Semana #" +value.numero + " - Capítulo " + value.capitulo + '</a></h4>');
+                var panelTitle = $('<h4 class="panel-title"><a class="collapsed" role="button" data-parent="#accordion" aria-expanded="false" aria-controls="collapse' + i + '">' + "Semana #" +value.numero + " - Capítulo " + value.capitulo + '</a></h4>');
                 var panelCollapse = $('<div id="collapse' + i + '" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading' + i + '"></div>');
             }
             $.each(value.clases, function(key, valueClase) {

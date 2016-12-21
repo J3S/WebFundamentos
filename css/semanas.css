@@ -1,9 +1,21 @@
-.panel-footer{
-	background-color: hsla(64,50%,56%,0.32);
+
+
+.panel-heading.accordion-toggle:after {
+    /* adjust as needed, taken from bootstrap.css */
+    float: right;
+    position: relative;
+    bottom: 23px;
+    font-size: 15pt;
+    /* adjust as needed */
+    color: grey;
+    /* adjust as needed */
 }
 
-.panel-heading{
-	background-color: hsla(20,100%,60%,0.85);
+.panel-heading:hover {
+    cursor: pointer;
+}
 
+.panel-heading:hover h4 {
+    text-decoration: underline;
 }
 
