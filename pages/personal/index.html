@@ -1,24 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Profesores</title>
-    
+
+    <title>Ayudantes de clases</title>
+
     <!-- Bootstrap Core CSS -->
     <link href="../../externo/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    
+
+
     <!-- Theme CSS -->
     <link href="../../externo/bootstrap/css/creative.css" rel="stylesheet">
     <link href="../../css/mystyles.css" rel="stylesheet">
-    
-    <!-- My Style -->
     <link href="../../css/personalMateria.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
-<body>
+
+<body id="page-top">
+
 
     <!-- Modal -->
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -53,6 +65,7 @@
       </div>
     </div>
 
+<div class="container">
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -84,17 +97,47 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <main class="container container-centered">
-        <div class="row">
-            <div class="col-xs-12 text-center">
-                <header>
-                    <h1 class="page-header">Profesores</h1>
-                </header>
+    <div class="container container-centered">
+        
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <header>
+                        <h1 class="section-heading">Personal de la materia</h1>
+                        <hr class="primary">
+                    </header>
+                </div>
             </div>
-        </div>
-    </main>
+            <div class="row">
+                <div class="col-xs-12">
+                    <ul class="nav nav-tabs nav-justified">
+                        <li class="active"><a data-toggle="tab" href="#coordinador">Coordinador</a></li>
+                        <li><a data-toggle="tab" href="#profesores">Profesores</a></li>
+                        <li><a data-toggle="tab" href="#ayudantes-c">Ayudantes de clases</a></li>
+                        <li><a data-toggle="tab" href="#ayudantes-d">Ayudantes de deberes</a></li>
+                    </ul>
+
+                    <div class="tab-content">
+                        <div id="coordinador" class="tab-pane fade in active">
+                            <div class="row" id="coordinador-materia"></div>
+                        </div>
+                        <div id="profesores" class="tab-pane fade">
+                            <div class="row" id="profesores-materia"></div>
+                        </div>
+                        <div id="ayudantes-c" class="tab-pane fade">
+                            <div class="row" id="ayudantes-clases"></div>
+                        </div>
+                        <div id="ayudantes-d" class="tab-pane fade">
+                            <div class="row" id="ayudantes-deberes"></div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row" id="contenido"></div>
+        
+    </div>
     <!-- jQuery -->
-    <script src="../../externo/jquery/jquery-2.2.3.min.js"></script>
+    <script src="../../externo/jquery/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="../../externo/bootstrap/js/bootstrap.min.js"></script>
@@ -104,10 +147,11 @@
     <script src="../../externo/scrollreveal/scrollreveal.min.js"></script>
     <script src="../../externo/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- My jQuery -->
-    <script type="text/javascript" src="../../js/personalMateria.js"></script>
+    <!-- Theme JavaScript -->
     <script src="../../js/creative.min.js"></script>
+    <script src="../../js/personalMateria.js"></script>
     <script src="../../js/login_no_index.js"></script>
-    <!-- <script src="../../js/ingreso.js"></script> -->
+
 </body>
+
 </html>
