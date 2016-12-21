@@ -99,9 +99,9 @@ header .header-mobile {
     top: 50%;
     transform: translateY(-50%);
     bottom: initial;
-    text-align: left;
-    left: auto;
-    right: 50%;
+    text-align: right;
+    right: auto;
+    left: 50%;
     max-width: 500px;
 }
 
