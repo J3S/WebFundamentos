@@ -13,10 +13,10 @@
     margin-right: 0;
 }
 
-.carousel-caption {
+/* .carousel-caption {
     background-color: rgb(0, 0, 0);
     background-color: rgba(0, 0, 0, 0.5)
-}
+} */
 
 @media all and (min-width: 992px) {
     .container-centered {
@@ -94,3 +94,19 @@ header .header-mobile {
         margin-left: 0;
         margin-right: 0; 
     }
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    text-align: left;
+    left: auto;
+    right: 50%;
+    max-width: 500px;
+}
+
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
