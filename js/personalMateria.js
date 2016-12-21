@@ -2,14 +2,13 @@ $(document).ready(function(){
 
 
 var url = document.location.toString();
-console.log(url);
 if (url.match('#')) {
 	$('.nav-tabs a[href="#'+url.split('#')[1]+'"]').tab('show') ;
 	var x = url.substring(url.lastIndexOf('#')+1);
 	
 	if (x === 'coordinador'){
-		console.log(x);
 		$.getJSON("../../data/personal/coordinador.json",{}, function(items){
+                                console.log(items);
 				items.coordinador.forEach(function(item){
 					$("#coordinador-materia").append(
 						
@@ -56,7 +55,6 @@ if (url.match('#')) {
         $(this).tab('show');
         if($('#profesores-materia').html() == "") {
 	        $.getJSON("../../data/personal/profesores.json",{}, function(items){
-				console.log(items);
 				items.profesores.forEach(function(item){
 					$("#profesores-materia").append(
 						

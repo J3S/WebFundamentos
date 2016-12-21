@@ -1,28 +1,23 @@
 {
   "ayudantesDeberes":[{
-	"imagen": "CarlosPalma.jpg",
-	"nombre": "Carlos Cedeño Cuenca",
-	"correo": "cgcedeno@espol.edu.ec" 
+    "imagen": "JoseCedeno.jpg",
+    "nombre": "Jose Cedeño Vargas",
+    "correo": "jgcedeno@espol.edu.ec",
+    "horario": "11:30 - 13:30",
+    "edificio": "Bloque 15A",
+    "aula": "15A-03",
+    "lat": "-2.14455819",
+    "lng": "-79.9676156"
   },
   {
-	"imagen": "KevinMatamoros.jpg",
-	"nombre": "Gabriel Godoy Perez",
-	"correo": "gjgodoy@espol.edu.ec"
-  },
-  {
-	"imagen": "ElizaSanchez.jpg",
-	"nombre": "Mariela Castro Leon",
-	"correo": "mtcastro@espol.edu.ec"
-  },
-  {
-	"imagen": "MelanieCedeno.jpg",
-	"nombre": "Ingrig Mejia Loor",
-	"correo": "igmejia@espol.edu.ec"
-  },
-  {
-	"imagen": "LuisTobar.jpg",
-	"nombre": "Ramón Toledo Zurita",
-	"correo": "rjtoledo@espol.edu.ec"
+    "imagen": "JulioLarrea.jpg",
+    "nombre": "Julio Larrea Sanchez",
+    "correo": "juallarr@espol.edu.ec",
+    "horario": "09:30 - 11:30",
+    "edificio": "Bloque 15A",
+    "aula": "15A-01",
+    "lat": "-2.14455819",
+    "lng": "-79.9676156"
   }
  ]
 }
