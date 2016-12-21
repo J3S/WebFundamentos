@@ -1,17 +1,6 @@
 {
     "titulo": "Análisis de Código",
-    "descripcion": "Analice el siguiente código y seleccione la respuesta correcta
-import numpy
-A = numpy.arange(12).reshape(4,3)
-B = A>5
-C = A[B]
-D = C.reshape(2,3)
-print(D[1,1:])
-a. [10 11]
-b. [[10 11]]
-c. []
-d. Error: No se puede hacer reshape
-e. Ninguna de las anteriores",
+    "descripcion": "Analice el siguiente código y seleccione la respuesta correcta<br>import numpy<br>A = numpy.arange(12).reshape(4,3)<br>B = A>5<br>C = A[B]<br>D = C.reshape(2,3)<br>print(D[1,1:])",
     "autor": "Profesor Marco Calderon",
     "etiquetas": 
     [
@@ -27,6 +16,6 @@ e. Ninguna de las anteriores",
     ],
     "porcentajeEstudiantes": 47,
     "dificultad": "Intermedio I",
-    "problema": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.<br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.<br>",
+    "problema": "Analice el siguiente código y seleccione la respuesta correcta<br>import numpy<br>A = numpy.arange(12).reshape(4,3)<br>B = A>5<br>C = A[B]<br>D = C.reshape(2,3)<br>print(D[1,1:])<br>a. [10 11]<br>b. [[10 11]]<br>c. []<br>d. Error: No se puede hacer reshape<br>e. Ninguna de las anteriores",
     "resultadoCorrecto": 16
 }

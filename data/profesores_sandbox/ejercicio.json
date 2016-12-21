@@ -1,17 +1,6 @@
 {
     "titulo": "Análisis de Código",
-    "descripcion": "Analice el siguiente código y seleccione la respuesta correcta
-import numpy
-A = numpy.arange(12).reshape(4,3)
-B = A>5
-C = A[B]
-D = C.reshape(2,3)
-print(D[1,1:])
-a. [10 11]
-b. [[10 11]]
-c. []
-d. Error: No se puede hacer reshape
-e. Ninguna de las anteriores",
+    "descripcion": "Analice el siguiente código y seleccione la respuesta correcta\nimport numpy\nA = numpy.arange(12).reshape(4,3)\nB = A>5\nC = A[B]\nD = C.reshape(2,3)\nprint(D[1,1:])\na. [10 11]\nb. [[10 11]]\nc. []\nd. Error: No se puede hacer reshape\ne. Ninguna de las anteriores",
     "etiquetas": 
     [
         {"nombre": "Variables"},

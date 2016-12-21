@@ -1,7 +1,7 @@
 {
     "proyectos": [
         {
-            "titulo": "Proyecto del profesor A",
+            "titulo": "Reporte de sismos",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
             "etiquetas": 
             [
@@ -12,10 +12,10 @@
             ],
             "fechaEntrega": "12/12/2016",
             "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor A"
+            "autor": "Marco Calderon Arguello"
         },
         {
-            "titulo": "Proyecto del profesor B",
+            "titulo": "Control de tráfico",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
             "etiquetas": 
             [
@@ -26,10 +26,10 @@
             ],
             "fechaEntrega": "12/12/2016",
             "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor B"
+            "autor": "Carmen Vaca Ruiz"
         },
         {
-            "titulo": "Proyecto del profesor C",
+            "titulo": "Cajero automático",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
             "etiquetas": 
             [
@@ -39,10 +39,10 @@
             ],
             "fechaEntrega": "12/12/2016",
             "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor C"
+            "autor": "Jorge Magallanes Borbor"
         },
         {
-            "titulo": "Proyecto del profesor D",
+            "titulo": "Sistema de citas médicas",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
             "etiquetas": 
             [
@@ -51,10 +51,10 @@
             ],
             "fechaEntrega": "12/12/2016",
             "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor D"
+            "autor": "Cruz Maria Falcones"
         },
         {
-            "titulo": "Proyecto del profesor E",
+            "titulo": "Control de torneos de fútbol",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
             "etiquetas": 
             [
@@ -65,10 +65,10 @@
             ],
             "fechaEntrega": "12/12/2016",
             "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor E"
+            "autor": "Rafael Bonilla"
         },
         {
-            "titulo": "Proyecto del profesor F",
+            "titulo": "Control de tareas y horarios personales",
             "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
             "etiquetas": 
             [
@@ -76,35 +76,7 @@
             ],
             "fechaEntrega": "12/12/2016",
             "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor F"
-        },
-        {
-            "titulo": "Proyecto del profesor G",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
-            "etiquetas": 
-            [
-                {"nombre": "Variables"},
-                {"nombre": "Funciones"},
-                {"nombre": "Archivos"},
-                {"nombre": "Diccionarios"}
-            ],
-            "fechaEntrega": "12/12/2016",
-            "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor G"
-        },
-        {
-            "titulo": "Proyecto del profesor H",
-            "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent bibendum ornare pulvinar. Fusce pellentesque tristique massa, sit amet aliquet dui sollicitudin in. Proin lorem tortor, condimentum id dolor et, congue mollis massa. Aliquam vestibulum vestibulum est et pretium. Vivamus ultricies eu elit eget rutrum. Fusce eget augue id libero sollicitudin blandit sit amet quis est. Cras est dui, molestie tempor massa quis, volutpat elementum sapien. Pellentesque scelerisque vulputate tortor, eu sollicitudin lorem aliquam vitae. Nunc semper arcu ut ligula varius consequat. Nunc id suscipit augue, sed elementum mi. Praesent at sem metus. Nam vel arcu elementum, sodales diam quis, euismod risus. Pellentesque semper mi et viverra rhoncus.<br>Etiam porttitor condimentum ipsum vel condimentum. Praesent eget orci blandit, bibendum enim ut, imperdiet felis. Mauris malesuada nisl sit amet purus ultrices dapibus id sit amet mi. Sed dignissim odio sapien. Duis tristique dapibus malesuada. Suspendisse potenti. Nunc a tincidunt purus. Suspendisse potenti. Aliquam sed sodales augue. Pellentesque fermentum neque et neque congue, vel euismod felis rutrum.",
-            "etiquetas": 
-            [
-                {"nombre": "Variables"},
-                {"nombre": "Funciones"},
-                {"nombre": "Estructuras"},
-                {"nombre": "Lazos"}
-            ],
-            "fechaEntrega": "12/12/2016",
-            "archivoProyecto": "../../../../recursos/proyectos/ProyectoParcial.pdf",
-            "autor": "Profesor H"
+            "autor": "Eduardo Cruz Ramirez"
         }
     ]
 }
