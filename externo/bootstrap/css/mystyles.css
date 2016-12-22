@@ -1,0 +1,112 @@
+.navbar-brand-image {
+    width: 50px;
+    height: 50px;
+}
+
+.remove-padding-tb {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.remove-margin-lr {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+/* .carousel-caption {
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5)
+} */
+
+@media all and (min-width: 992px) {
+    .container-centered {
+        max-width: 80%;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .container-centered {
+      padding: 0;
+    }
+}
+
+.carousel-caption {
+        font-weight: 700;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+.carousel-caption  p{
+        font-weight: 700;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+}
+
+@media all and (max-width: 1199px) {
+    .iframe-size-screen {
+        margin-top: 20px;
+    }
+}
+
+body {
+    background-image: url('../img/background-2.jpg');
+    background-size: cover;
+    background-repeat:   no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-top: 105px;
+}
+
+.bg-secondary {
+  background-color: hsla(0, 0%, 98%, 0.63);
+}
+
+header .header-mobile {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+  font-size: 30px;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+  font-weight: 700;
+}
+.without-style {
+    list-style:none;
+    padding-left: 0;
+}
+
+.row .text-center .service-box {
+    margin-bottom: 50px; 
+}
+
+@media all and (max-width: 1200px) {
+    .row .text-center .service-box {
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+}
+
+    .row .text-center {
+        padding-left: 0;
+        padding-right: 0; 
+    }
+    .bg-secondary .row,
+    .bg-primary .row,
+    .bg-dark .row {
+        margin-left: 0;
+        margin-right: 0; 
+    }
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+    text-align: right;
+    right: auto;
+    left: 50%;
+    max-width: 500px;
+}
+
+.item {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
