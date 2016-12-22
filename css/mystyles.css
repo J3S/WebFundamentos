@@ -59,6 +59,12 @@ body {
   background-color: #ffffff;
 }
 
+.bg-tres{
+    background-color: hsla(0, 0%, 98%, 0.63);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
 header .header-mobile {
   position: relative;
   text-align: center;
