@@ -71,7 +71,7 @@ $("#agregar-etiqueta").click(function() {
         if(divEtiquetasAgregadas.children().length === 1) {
             var row = $('<div class="row add-margin-top-min" id="div' + etiqueta + '"></div>');
             var label = $('<div class="col-xs-8"><label>' + etiqueta + '</label></div>');
-            var button = $('<button type="button" class="btn btn-danger quitar-etiqueta" data-target="div' + etiqueta + '">Quitar</button>');
+            var button = $('<button type="button" class="btn btn-danger quitar-etiqueta" style="margin-bottom:5px;" data-target="div' + etiqueta + '" >Quitar</button>');
             row.append(label);
             row.append(button);
             divEtiquetasAgregadas.append(row);
