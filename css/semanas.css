@@ -4,8 +4,8 @@
     /* adjust as needed, taken from bootstrap.css */
     float: right;
     position: relative;
-    bottom: 23px;
-    font-size: 15pt;
+    bottom: 21px;
+    font-size: 16pt;
     /* adjust as needed */
     color: grey;
     /* adjust as needed */
@@ -15,10 +15,12 @@
     cursor: pointer;
 }
 
-.panel-heading:hover h4 {
+.panel-heading:hover h3 {
+	
     text-decoration: underline;
 }
 
 .panel-footer{
+	
     background-color: white;
 }
